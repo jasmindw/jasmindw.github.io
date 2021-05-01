@@ -1,0 +1,48 @@
+@charset "utf-8";
+
+.nav li{
+	margin:0;
+	padding: 10px 0;
+}
+
+nav{
+	float:left;
+}
+
+.nav li{
+	float:none;
+}
+
+.open > .dropdown-menu {
+    width: 100%;
+}
+
+h1{
+	padding-top: 10px;
+	font-size:80px;
+}
+
+p.intro{
+	font-size:40px;
+}
+
+img#about{
+	float:left;
+}
+
+.contact{
+	margin:40px 0;
+}
+
+#contact{
+	padding-top:10px;
+}
+
+.nav .col-sm-2{
+	padding-left:0;
+	padding:right:0;
+}
+
+#graphics{
+	margin:0 auto;
+}

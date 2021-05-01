@@ -1,0 +1,267 @@
+@charset "utf-8";
+@import url("//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css");
+
+@font-face {
+  font-family: "Dosis-regular";
+    src: url('fonts/dosis-regular-webfont.eot');
+    src: url('fonts/dosis-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/dosis-regular-webfont.woff') format('woff'),
+         url('fonts/dosis-regular-webfont.ttf') format('truetype'),
+         url('fonts/dosis-regular-webfont.svg#dosisregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+  font-family: "Dosis-semibold";
+    src: url('fonts/dosis-semibold-webfont.eot');
+    src: url('fonts/dosis-semibold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/dosis-semibold-webfont.woff') format('woff'),
+         url('fonts/dosis-semibold-webfont.ttf') format('truetype'),
+         url('fonts/dosis-semibold-webfont.svg#dosisregular') format('svg');
+}
+/* CSS Document */
+/* navigatie */
+nav{
+	float:right;
+	padding-right:30px;
+}
+
+.navbar{
+	background-color:#2555a1;
+	border-bottom:none;
+}
+
+.nav li a {
+	color:#FFF;
+	text-transform:uppercase;
+	text-decoration:none;
+	font-family:"Dosis-semibold";
+	font-size:16px;
+	padding:0;
+}
+
+.nav li a:hover {
+	background-color:#2555A1;
+}
+
+.navbar-inverse .navbar-toggle {
+    background-color: #E19C00;
+    margin-top: 20px;
+	border:none;
+}
+
+.navbar-inverse .navbar-toggle:focus, .navbar-inverse .navbar-toggle:hover {
+    background-color: #E19C00;
+}
+
+.navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
+    border-color: #FFF;
+}
+
+.nav li{
+	padding-top:36px;
+	margin:0 40px;
+	float:left;
+}
+
+/* home */
+div.intro{
+	padding-top:80px;
+}
+
+#graphics{
+	padding-top:30px;
+	max-height:523px;
+}
+
+h1{
+	font-family: "Dosis-regular";
+	font-size:100px;
+	padding-top: 50px;
+}
+
+#puntjes{
+	padding-left:25px;
+}
+span img {
+    vertical-align:baseline;
+}
+
+p{
+	font-family:"Dosis-regular";
+	font-size:15px;
+}
+
+p.intro{
+	font-size:43px;
+	line-height:1,1;
+}
+
+p span {
+	font-family:"Dosis-semibold";
+}
+
+span#intro, h2 {
+	font-size:43px;
+	font-family:"Dosis-semibold";
+}
+/* about */
+.about{
+	background-color:#d2d4db;
+	width:100%;
+	height:100%;
+	padding:95px 0 120px 0;
+	margin-top:70px;
+}
+
+ h2{
+	 padding: 50px 0 20px 0;
+	 
+}
+
+img#about{
+	float:right;
+}
+
+.download{
+	background-color:#2555a1;
+	height: 50px;
+	width: 160px;
+	padding: 10px 20px;
+	color: #1d294a;
+}
+
+a{
+	font-family: "Dosis-semibold";
+}
+
+a:hover{
+	color: #e19c00;
+	text-decoration:none;
+}
+/* portfolio */
+h3{
+	font-family:"Dosis-semibold";
+	font-size:40px;
+	padding:90px 0 20px 0;
+}
+
+.thumbnail {
+    border: 1px solid #DDDDDD;
+    border-radius:0;
+	margin-bottom:20px;
+}
+
+.thumbnail:hover {
+    border: 1px solid #2555a1;
+	cursor:pointer;
+}
+
+.work{
+	margin-top:80px;
+}
+
+
+/* contact */
+#mail{
+	float:right;
+}
+
+form input[type="text"], textarea {
+    background-color: #d2d4db;
+    color: rgba(0, 0, 0, 0.5);
+    height: 40px;
+    margin-bottom: 10px;
+    outline: medium none;
+    padding-left: 10px;
+    width: 100%;
+	border: none;	
+}
+
+form input[type="text"]:focus, textarea:focus {
+	border: 2px solid #e19c00;
+}
+
+textarea {
+    color: #000000;
+    height: 200px;
+    padding: 10px 0 0 10px;
+}
+
+form input[type="submit"] {
+    background-color: #f59d00;
+    color: #FFFFFF;
+    height: 40px;
+    width: 120px;
+	border: none;
+}
+.contact{
+	margin:70px 0;
+}
+
+#contact{
+	padding-top:80px;
+}
+
+/* footer */
+footer{
+	background-color:#2555a1;
+}
+
+footer img{
+	padding: 10px 0;
+}
+
+a.li{
+	background:url(images/ico_linkedin.png) no-repeat;
+	background-position:left center;
+	background-size:contain;
+	text-indent:-1000000px;
+	display:inline-block;
+	width:50%;
+	padding-top: 3px;
+}
+
+.fb{
+padding-top:2px;
+}
+
+a.fb{
+	background:url(images/ico_facebook.png) no-repeat;
+	background-position: right center;	
+	background-size:contain;
+	text-indent:-1000000px;
+	display:inline-block;
+	width:40%;
+	margin-right: 10%;
+    width: 40%;
+	
+}
+
+footer p{
+	color:#FFF;
+	font-size:9px;
+	margin:0 auto;
+	text-align:center;
+	padding-top: 22px;
+}
+
+
+.ico
+{
+	float:left;
+	text-align:left;
+	margin:0;
+	margin-top: 10px;
+}
+
+
+
+.socialmedia{
+	padding-right:0;
+}
+
+.bottom{
+	padding-top:22px;
+}
+

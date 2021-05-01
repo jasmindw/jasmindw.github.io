@@ -1,0 +1,67 @@
+@charset "utf-8";
+nav
+{
+	position:absolute;
+	height:100%;
+	width:50px;
+	left:0;
+	top:0px;
+	z-index:10;
+}
+
+nav ul
+{
+	position:absolute;
+	
+	width:50px;
+	height:100%;
+	top:0px;
+}
+
+.tree
+{
+	position:absolute;
+	float:left;
+}
+
+footer
+{
+	clear:both;
+	position:absolute;
+	float:right;
+	right:-70px;
+	bottom:-20px;
+}
+
+#content
+{
+	position:absolute;
+	float:left;
+	left:150px;
+}
+
+article.slides a img
+{
+	width: 100%;
+}
+form fieldset label
+{
+	margin-left:10px;
+}
+
+input[type="text"], input[type="email"]
+{
+	width:50%;
+}
+
+textarea
+{
+	width:50%;
+}
+
+input[type="submit"]
+{
+	position:absolute;
+	float:right;
+	right:10%;
+}

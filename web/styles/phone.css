@@ -1,0 +1,29 @@
+/*PHONE*/
+
+nav
+{
+	float:none;
+	top:0;
+	width:100%;
+}
+nav ul
+{
+	padding:0;
+}
+nav ul li
+{
+	float:none;
+	clear:both;
+	width:100%;
+}
+
+
+/*TABLET*/
+@media screen and (min-width:400px) and (max-width:800px) 
+{
+}
+
+@media screen and (orientation: portrait) 
+{
+}/* CSS Document */
+
